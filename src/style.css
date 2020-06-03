@@ -1,0 +1,11 @@
+@tailwind base;
+
+@tailwind components;
+
+.btn {
+    @apply bg-orange-700  text-white rounded-lg   py-2 px-4 px-10 shadow-xl uppercase tracking-wider text-lg;
+}
+
+
+
+@tailwind utilities;

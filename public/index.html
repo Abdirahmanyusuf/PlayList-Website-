@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plays List Website </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+    <div class="flex flex-col h-screen text-sm text-300 text-white ">
+        <div class=" flex-1 flex overflow-y-hidden ">
+            <div class=" sidebar bg-gray-900 w-48 flex-none flex flex-col justify-between font-semibold">
+
+                <ul class="py-6">
+                    <li class="border-l-4 border-green-600">
+                        <a href="#" class="flex items-center mx-4 mt-4">
+                            <i class="fa fa-home text-lg"></i>
+                            <span class="p-2">Home</span>
+
+                        </a>
+
+                    </li>
+                    <li class="">
+                        <a href="#" class="flex items-center mx-4 mt-4">
+                            <i class="fa fa-broadcast-tower text-lg"></i>
+                            <span class="p-2">Radio</span>
+
+                        </a>
+
+                    </li>
+                    <li class="">
+                        <a href="#" class="flex items-center mx-4 mt-4">
+                            <i class="far fa-copy text-lg"></i>
+                            <span class="p-2">Browse</span>
+
+                        </a>
+
+                    </li>
+                </ul>
+
+
+
+                <div class="overflow-y-auto px-5 mt-2">
+                    <h3 class="uppercase tracking-widest text-gray-500  font-normal text-xs ">Your Libarary</h3>
+                    <ul class="leading-10">
+                        <li class="truncate"><a href="#" class="hover:text-white">Made For you</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Recently Played</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Liked Songs</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Albums</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Artists</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Podcasts</a></li>
+                    </ul>
+                    <h3 class="uppercase tracking-widest text-gray-500  font-normal text-xs ">Play Lists</h3>
+                    <ul class="leading-loose">
+                        <li class="truncate"><a href="#" class="hover:text-white">Acountic Hits</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Acountic Covers</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Discover Weekly</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Hots Hits Canada </a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">90's Hip-Hop Dont Stop Long Text</a>
+                        </li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Podcasts</a></li>
+                    </ul>
+                    <ul class="leading-loose">
+                        <li class="truncate"><a href="#" class="hover:text-white">90's Smash Hits </a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">TGIF</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Min Canada</a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Hip-Hop Central </a></li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Today's Top Hits</a>
+                        </li>
+                        <li class="truncate"><a href="#" class="hover:text-white">Podcasts</a></li>
+                    </ul>
+
+
+                </div>
+                <div class="border-t border-gray-800 h-16  px-15 py-6 flex items-center">
+                    <i class="fas fa-plus-circle text-5xl"></i>
+                    <a href="#" class="font-normal text-gray-500 ml-2 group:hover:text-white">New Playlist</a>
+
+                </div>
+            </div>
+            <div class="content-area bg-black flex-1  flex flex-col">
+                <div class="top-par flex items-center justify-between px-4 py-2">
+                    <div class="flex items-center">
+                        <div>
+                            <i class="fas fa-chevron-left text-lg"></i>
+
+                        </div>
+                        <div>
+                            <i class="fas fa-chevron-right text-lg p-4"></i>
+
+                        </div>
+                        <div class="ml-4 relative">
+                            <input type="text" placeholder="find"
+                                class="bg-white text-gray-800 placeholder-gray-800 rounded-full px-3 py-1">
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="overflow-y-auto">
+                    <div class="container mx-auto  px-8">
+                        <h2 class="mt-24 text-5xl font-semibold text-white">Home</h2>
+                        <div class="mt-12">
+                            <h3 class="font-semibold text-xl border-b border-gray-900 pb-2">Recently Played</h3>
+                            <div class="flex items-center mt-4 -mx-4  ">
+                                <div class="w-1/5 px-4">
+                                    <div><a href="#"><img src="./img/awaale adan.jpg" alt="awale-dan"> </a></div>
+                                    <div>
+                                        <a href="#" class="font-semibold block hover:text-white mt-2">Awaale Aadan
+                                            2020</a>
+                                        <div class="text-gray-500 mt-2 ">Amazing Awale Update Music every Week </div>
+                                        <div class="uppercase tracking-widest text-xs text-gray-500  mt-2">4443
+                                            followers</div>
+                                    </div>
+                                </div>
+                                <div class="w-1/5 px-4">
+                                    <div><a href="#"><img src="./img/kiin jamac.jpg" alt="awale-dan"> </a></div>
+                                    <div>
+                                        <a href="#" class="font-semibold block hover:text-white mt-2">Kiin Jamac
+                                            2020</a>
+                                        <div class="text-gray-500 mt-2 ">Amazing Kiin Update Music every Week </div>
+                                        <div class="uppercase tracking-widest text-xs text-gray-500  mt-2">5544
+                                            followers</div>
+                                    </div>
+                                </div>
+                                <div class="w-1/5 px-4">
+                                    <div><a href="#"><img src="./img/Suldaan-Seeraar-SamSam.jpg" alt="awale-dan"> </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="font-semibold block hover:text-white mt-2">Suldaan Seerar
+                                            2020</a>
+                                        <div class="text-gray-500 mt-2 ">Amazing Suldaan Update Music every Week </div>
+                                        <div class="uppercase tracking-widest text-xs text-gray-500  mt-2">3345
+                                            followers</div>
+                                    </div>
+                                </div>
+                                <div class="w-1/5 px-4">
+                                    <div><a href="#"><img src="./img/xariir ahmed.jpg" alt="awale-dan"> </a></div>
+                                    <div>
+                                        <a href="#" class="font-semibold block hover:text-white mt-2">xariir
+                                            2020</a>
+                                        <div class="text-gray-500 mt-2 ">Amazing xariir Update Music every Week </div>
+                                        <div class="uppercase tracking-widest text-xs text-gray-500  mt-2">8898
+                                            followers</div>
+                                    </div>
+                                </div>
+                                <div class="w-1/5 px-4">
+                                    <div><a href="#"><img src="./img/nimcaan.jpg" alt="awale-dan"> </a></div>
+                                    <div>
+                                        <a href="#" class="font-semibold block hover:text-white mt-2">Kiin Jamac
+                                            2020</a>
+                                        <div class="text-gray-500 mt-2 ">Amazing nimcaan Update Music every Week </div>
+                                        <div class="uppercase tracking-widest text-xs text-gray-500  mt-2">88990
+                                            followers</div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                            </div>
+                            <h3 class="font-semibold text-xl border-b border-gray-900 pb-2 py-6">Most Viewers Songs</h3>
+                            <div class="flex items-center mt-4 -mx-4  ">
+                                <div class="w-1/5 px-4">
+                                    <div><a href="#"><img src="./img/awaale adan.jpg" alt="awale-dan"> </a></div>
+                                    <div>
+                                        <a href="#" class="font-semibold block hover:text-white mt-2">Awaale Aadan
+                                            2020</a>
+                                        <div class="text-gray-500 mt-2 ">Amazing Awale Update Music every Week </div>
+                                        <div class="uppercase tracking-widest text-xs text-gray-500  mt-2">4443
+                                            followers</div>
+
+                                        <span class="fa fa-home"></span>
+                                    </div>
+                                </div>
+                                <div class="w-1/5 px-4">
+                                    <div><a href="#"><img src="./img/kiin jamac.jpg" alt="awale-dan"> </a></div>
+                                    <div>
+                                        <a href="#" class="font-semibold block hover:text-white mt-2">Kiin Jamac
+                                            2020</a>
+                                        <div class="text-gray-500 mt-2 ">Amazing Kiin Update Music every Week </div>
+                                        <div class="uppercase tracking-widest text-xs text-gray-500  mt-2">5544
+                                            followers</div>
+                                    </div>
+                                </div>
+                                <div class="w-1/5 px-4">
+                                    <div><a href="#"><img src="./img/Halimo-Gobaad_avatar.jpg" alt="awale-dan"> </a>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="font-semibold block hover:text-white mt-2">Haliimo
+                                            2020</a>
+                                        <div class="text-gray-500 mt-2 ">Amazing Suldaan Update Music every Week </div>
+                                        <div class="uppercase tracking-widest text-xs text-gray-500  mt-2">3345
+                                            followers</div>
+                                    </div>
+                                </div>
+                                <div class="w-1/5 px-4">
+                                    <div><a href="#"><img src="./img/download.jpg" alt="awale-dan"> </a></div>
+                                    <div>
+                                        <a href="#" class="font-semibold block hover:text-white mt-2">Guleed Simba
+                                            2020</a>
+                                        <div class="text-gray-500 mt-2 ">Amazing Guleed Simba Update Music every Week
+                                        </div>
+                                        <div class="uppercase tracking-widest text-xs text-gray-500  mt-2">5644
+                                            followers</div>
+                                    </div>
+                                </div>
+                                <div class="w-1/5 px-4">
+                                    <div><a href="#"><img src="./img/Ilkacase-Qays-Heesta-Kala-Baro.jpg"
+                                                alt="awale-dan"> </a></div>
+                                    <div>
+                                        <a href="#" class="font-semibold block hover:text-white mt-2">Ilkacase
+                                            2020</a>
+                                        <div class="text-gray-500 mt-2 ">Amazing Ilkacase Update Music every Week </div>
+                                        <div class="uppercase tracking-widest text-xs text-gray-500  mt-2">88990
+                                            followers</div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+        <div class=" bg-gray-700 flex-none h-22 px-5 flex items-center justify-between">
+
+            <div class="flex items-center">
+                <a href="#"><img src="./img/images.jpg" class="w-16 h-16"></a>
+                <div class="ml-3">
+                    <div><a href="#" class="hover:underline">Name of Songs</a></div>
+                    <div><a href="#" class="text-xs text-gray-500 hover:underline hover:text-white">Artists
+                            Name</a>
+                    </div>
+                </div>
+            </div>
+            <div class="plays controls  flex flex-col justify-between">
+                <div class="flex justify-center">
+
+
+                </div>
+                <div class=" max-w-full mt-3 flex items-center justify-center">
+                    <div class=" text-xs text-gray-500 ">1:20</div>
+                    <div class="bg-gray-500 rounded-lg w-24 xl:w-200 h-1 ml-3"></div>
+                    <div class="ml-3 text-xs text-gray-500">3:21</div>
+                </div>
+
+            </div>
+            <div class="Volume">
+                <i class="fa fa-volume-up text-lg"></i>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</html>
